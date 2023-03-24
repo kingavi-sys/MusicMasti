@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+td{
+    border: 2px solid;
+    border-color: #ff4c68; 
+}
+
+.SearchForm{
+    background-color: #ff4c68;
+    padding: 7%;
+    text-align: center
+}
+.SearchForm .searchbar{
+    width: 71%;
+    height: 3rem;
+}
+
+.SearchForm .searchbar::placeholder{
+    font-size: x-large;
+}
+
+.SearchForm input[type=text]{
+    font-size: 1.5rem;
+}
+
+
+#searchtable.tablesearch{
+    margin: 7% auto;
+    border: 2px solid;
+    border-color: #ff4c68;
+    color: #ff4c68;
+    width: 75%;
+}
+
+.song_img{
+    height: 90px;
+    width: 147px;
+}
+
+.song_name{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+
+.song_link{
+    text-decoration: none;
+    color: #ff4c68;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1.7rem;
+}
+
+.end{
+    background-color: #ff4c68;
+    padding: 3%;
+}
+.end p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    color: #fff;
+}
